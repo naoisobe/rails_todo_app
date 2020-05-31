@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>タスク編集</h2>
+  <%= form_with model: @task, local: true do |f| %>
+    <p><%= f.label :name %></p>
+    <p><%= f.text_field :name %></p>
+    <p><%= f.label :contents %></p>
+    <p><%= f.text_field :contents %></p>
+    <p><%= f.label :priority %></p>
+    <p><%= f.select :priority, (1..5).to_a %></p>
+    <p><%= f.label :deadline %></p>
+    <p><%= f.date_field :deadline %></p>
+    <%= f.submit "編集完了" %>
+    <%= link_to "戻る", task_path(@task) %>
+  <% end %>
+</div>
