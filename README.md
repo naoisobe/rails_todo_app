@@ -1,25 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+基本的なCRUD処理を実装した
+簡単なtodoアプリをrailsで作ってみました。
+（バリデーションなどは未実装）
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.5
 
-* System dependencies
+* Rails version 6.0.3.1
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # rails_todo_app
